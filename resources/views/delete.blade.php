@@ -19,7 +19,7 @@
                         <li><a href="/phpSaitti/public/delete"> Delete car</a></li>
                     </ul>
                 </nav>
-                <form action="/phpSaitti/public/index.php" method="post" name="remove_cars">
+                <form action="/public/index.php" method="post" name="remove_cars">
                     <ul>
                         {{csrf_field()}}
                       @foreach ($cars as $car)

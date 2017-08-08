@@ -11,7 +11,7 @@
         <div class="container">
             
             <div class="row">
-                    <form action="/phpSaitti/public/index.php" method="post" name="create_car">
+                    <form action="/public/index.php" method="post" name="create_car">
                         {{ csrf_field() }}
                         <fieldset>
                             <label for="brand">Brand:</label>
