@@ -15,7 +15,7 @@
                         {{ csrf_field() }}
                         <fieldset>
                             <label for="brand">Brand:</label>
-                            <input type="text" id="brand" name="brand" placeholder="Enter car brand" />
+                            <input type="text" id="brand" name="brand" placeholder="Enter car brand" autofocus/>
                             <br />
                             <label for="model">Model:</label>
                             <input type="text" id="model" name="model" placeholder="Enter car model" />
