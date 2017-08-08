@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'Controller@index');
+Route::any('/', 'Controller@index');
 
 Route::get('/create','Controller@create');
 
