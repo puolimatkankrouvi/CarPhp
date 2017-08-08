@@ -19,7 +19,7 @@
                         <li><a href="/delete"> Delete car</a></li>
                     </ul>
                 </nav>
-                <form action="/public/index.php" method="post" name="remove_cars">
+                <form action="/" method="post" name="remove_cars">
                     <ul>
                         {{csrf_field()}}
                       @foreach ($cars as $car)
