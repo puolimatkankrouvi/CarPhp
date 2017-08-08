@@ -15,8 +15,8 @@
                 <h1>Car list</h1>
                 <nav class="navbar navbar-default">
                     <ul class="nav navbar-nav">
-                        <li><a href="/phpSaitti/public/create">New car</a></li>
-                        <li><a href="/phpSaitti/public/delete"> Delete car</a></li>
+                        <li><a href="/create">New car</a></li>
+                        <li><a href="/delete"> Delete car</a></li>
                     </ul>
                 </nav>
                 <form action="/public/index.php" method="post" name="remove_cars">
