@@ -20,6 +20,8 @@ class Controller extends BaseController
     
     public function index(){
         
+        var_dump(getenv('DATABASE_URL'));
+        
         //If POST has both brand and model fields of the form create car
         if(Input::has('brand') && Input::has('model')){
           $brand = strip_tags(Input::get('brand'));
