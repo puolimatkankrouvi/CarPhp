@@ -33,7 +33,7 @@ return [
 
     'connections' => [
         
-        /*
+        /* .env
          * DB_HOST=127.0.0.1   
             DB_PORT=3306   
             DB_DATABASE=C:/xampp/htdocs/phpSaitti/database/database.sqlite
